@@ -1,0 +1,10 @@
+# Calculator
+A,OP,B = input("ENTER YOUR VALUE;") .split()
+A = int(A)
+B = int(B)
+if OP == '+' : print(A + B)
+elif OP == '-' : print (A - B )
+elif OP == '*' : print(A * B )
+elif  OP == '/' : print(A / B )
+elif OP == '%' : print(A % B )
+elif OP == '^' : print(A ** B )
